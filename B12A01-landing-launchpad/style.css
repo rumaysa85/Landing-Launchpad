@@ -11,7 +11,8 @@ body{
 .logo{
     color: rgb(67, 67, 246);;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+    font-weight: 800;
+    font-size: larger;
     
 }
 .cover{
@@ -24,6 +25,7 @@ body{
     border-radius: 11px;
     position: absolute;
     text-decoration: none;
+    
     
     
     
