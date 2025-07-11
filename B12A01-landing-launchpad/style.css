@@ -5,17 +5,23 @@
     font-size: large;
 
 }
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .logo{
     color: rgb(67, 67, 246);;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     
 }
+.cover{
+    padding: 20px;
+}
 .button{
     background-color: rgb(67, 67, 246);
     color: white;
-    padding: 12px 24px;
-    border-radius: 16px;
+    padding: 12px 40px;
+    border-radius: 11px;
     position: absolute;
     text-decoration: none;
     
