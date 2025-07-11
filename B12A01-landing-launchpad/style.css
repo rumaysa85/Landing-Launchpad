@@ -6,8 +6,20 @@
 
 }
 .logo{
-    color: blueviolet;
-    font-size: large;
+    color: rgb(67, 67, 246);;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    font-style: inherit;
+    
+}
+.button{
+    background-color: rgb(67, 67, 246);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 16px;
+    position: absolute;
+    text-decoration: none;
+    
+    
+    
+
 }
