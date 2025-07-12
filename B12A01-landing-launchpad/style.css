@@ -7,25 +7,57 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 150px;
+    margin: 20px 150px;
     color: #4E47FF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: larger;
-    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 150px;
+    
+    
     
 }
-.body{
-    font-size: 65px;
+h3{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+header{ 
+    
+    display: flex;
+    flex-direction: column; 
+    background-image: url("Assets/Hero-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+
+}
+body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 200px;
-    padding-right: 800px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 158px;
+    font-size: 60px;
+    position: relative;
+    margin: 267.5px 309px;
+}
+.banner-content{
+    padding-bottom: 37px;
+    text-align: center;
+    
 }
 .button-primary{
     background-color: #4E47FF;
     padding: 12px 36px;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
     color: white;
     border-style: none;
+    display: inline-block;
+    cursor: pointer;
+    
 }
