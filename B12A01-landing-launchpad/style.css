@@ -28,7 +28,6 @@ header{
     background-image: url("Assets/Hero-bg.png");
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh;
     
 
 }
@@ -60,4 +59,99 @@ body{
     display: inline-block;
     cursor: pointer;
     
+    
+}
+/* .button-primary :hover{
+    background-color: aliceblue;
+    transition-duration: 300;
+} */
+
+.tittle{
+    font-size: 42px;
+    font-weight: 700;
+    width: 517px;
+    height: 49px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 23px;
+    white-space: nowrap;
+}
+.subtittle{
+    display: flex;
+    font-size: 25px;
+    text-align: left;
+    color: #7d7d87;
+    width: 517px;
+    height: 60px;
+    padding-bottom: 23px;
+    padding-top: 80px;
+    
+}
+.action{
+    margin: 1123px 328px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-left: 176px;
+    margin: 0 auto;
+    padding: 30px 168px 60px 0px;
+    
+    
+    
+}
+.action-heading{
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 517px;
+    height: 203px;
+    border: 500px;
+
+    /* flex-direction: column; */
+}
+
+.action-content{
+    max-width: 517px;
+    height: 203px;
+    padding-left: 203px;
+    /* padding-right: 203px; */
+    display: flex;
+    flex-direction: column
+    
+    
+    
+}
+.secondary-bg{
+    background-color: white;
+}
+.wc-mini{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    object-fit: cover;
+    
+    
+}
+.shared{
+    background-color: white;
+}
+
+.user-update{
+    width: 856px;
+    height: 45px;
+    font-size: large;
+    font-weight: 300;
+}
+.user{
+    width: 856px;
+    height: 121px;
+    font-size: large;
+    font-weight: 300;
+}
+.shared{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-top: 50px 0;
+    text-align: center;
+    margin-top: 1258px;
+
 }
