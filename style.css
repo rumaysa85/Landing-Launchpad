@@ -62,7 +62,7 @@ body{
     display: inline-block;
     cursor: pointer;
     margin-top: 25px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .button-primary:hover {
@@ -118,9 +118,7 @@ body{
     padding-left: 203px;
     display: flex;
     flex-direction: column
-    
-    
-    
+       
     
 }
 .secondary-bg{
